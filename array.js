@@ -1,9 +1,9 @@
 
 let val = ['Qian', 'Chen']; 
 
-val.unshift('Dan');
+newVal = val.copyWithin(0, 2, 5)
 
-console.log(val); 
+console.log(newVal); 
 
 
 
